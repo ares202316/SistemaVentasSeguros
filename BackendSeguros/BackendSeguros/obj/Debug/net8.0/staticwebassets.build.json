@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8Ijb2a2VxQNDmBDCxYrnKIlj+1Sw/NkW0nRgUNoixM0=",
+  "Source": "BackendSeguros",
+  "BasePath": "_content/BackendSeguros",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

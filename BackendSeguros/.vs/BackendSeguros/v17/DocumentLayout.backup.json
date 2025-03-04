@@ -1,0 +1,350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\backendseguros.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\backendseguros.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\controllers\\polizascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\controllers\\polizascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\dtos\\polizadto\\crearpolizadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\dtos\\polizadto\\crearpolizadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\dtos\\polizadto\\polizadatosgeneraldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\dtos\\polizadto\\polizadatosgeneraldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\repositorio\\polizarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\repositorio\\polizarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\repositorio\\irepositorio\\ipolizarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\repositorio\\irepositorio\\ipolizarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\repositorio\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\repositorio\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\poliza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\poliza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\mappers\\mappearclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\mappers\\mappearclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\dtos\\polizadto\\polizadatosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\dtos\\polizadto\\polizadatosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\dtos\\coberturadto\\crearcoberturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\dtos\\coberturadto\\crearcoberturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\dtos\\coberturadto\\coberturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\dtos\\coberturadto\\coberturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\controllers\\coberturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\controllers\\coberturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\controllers\\ramoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\controllers\\ramoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\models\\ramo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\models\\ramo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\repositorio\\irepositorio\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\repositorio\\irepositorio\\iclienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|c:\\users\\addys\\onedrive\\escritorio\\proyectoseguro\\backendseguros\\backendseguros\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6BF9E4-0E4A-4BDD-BF02-D7109F8AAA4F}|BackendSeguros\\BackendSeguros.csproj|solutionrelative:backendseguros\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 162,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BackendSeguros.http",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\BackendSeguros.http",
+              "RelativeDocumentMoniker": "BackendSeguros\\BackendSeguros.http",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\BackendSeguros.http",
+              "RelativeToolTip": "BackendSeguros\\BackendSeguros.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-04T20:06:52.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PolizaDatosGeneralDto.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosGeneralDto.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosGeneralDto.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosGeneralDto.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosGeneralDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:12:40.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\ClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Repositorio\\ClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\ClienteRepositorio.cs",
+              "RelativeToolTip": "BackendSeguros\\Repositorio\\ClienteRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:07:30.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Usuario.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:59:28.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrearPolizaDto.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\PolizaDTO\\CrearPolizaDto.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Dtos\\PolizaDTO\\CrearPolizaDto.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\PolizaDTO\\CrearPolizaDto.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Dtos\\PolizaDTO\\CrearPolizaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:05:18.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PolizaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\PolizaRepositorio.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Repositorio\\PolizaRepositorio.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\PolizaRepositorio.cs",
+              "RelativeToolTip": "BackendSeguros\\Repositorio\\PolizaRepositorio.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwH4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:02:14.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPolizaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\IRepositorio\\IPolizaRepositorio.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Repositorio\\IRepositorio\\IPolizaRepositorio.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\IRepositorio\\IPolizaRepositorio.cs",
+              "RelativeToolTip": "BackendSeguros\\Repositorio\\IRepositorio\\IPolizaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:02:03.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PolizasController.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\PolizasController.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Controllers\\PolizasController.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\PolizasController.cs",
+              "RelativeToolTip": "BackendSeguros\\Controllers\\PolizasController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:52:51.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PolizaDatosDto.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosDto.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosDto.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosDto.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Dtos\\PolizaDTO\\PolizaDatosDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:05:53.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ramo.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Ramo.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Ramo.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Ramo.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Ramo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:16:36.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CoberturaDto.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CoberturaDto.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CoberturaDto.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CoberturaDto.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CoberturaDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T11:50:06.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Poliza.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Poliza.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Poliza.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Poliza.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Poliza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:05:58.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "BackendSeguros\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAswI8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:37:26.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MappearClass.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Mappers\\MappearClass.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Mappers\\MappearClass.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Mappers\\MappearClass.cs",
+              "RelativeToolTip": "BackendSeguros\\Mappers\\MappearClass.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:52:12.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrearCoberturaDto.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CrearCoberturaDto.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CrearCoberturaDto.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CrearCoberturaDto.cs",
+              "RelativeToolTip": "BackendSeguros\\Models\\Dtos\\CoberturaDTO\\CrearCoberturaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:00:33.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoberturaController.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\CoberturaController.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Controllers\\CoberturaController.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\CoberturaController.cs",
+              "RelativeToolTip": "BackendSeguros\\Controllers\\CoberturaController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowIUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:45:40.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RamosController.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\RamosController.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Controllers\\RamosController.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Controllers\\RamosController.cs",
+              "RelativeToolTip": "BackendSeguros\\Controllers\\RamosController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:16:40.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IClienteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\IRepositorio\\IClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Repositorio\\IRepositorio\\IClienteRepositorio.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Repositorio\\IRepositorio\\IClienteRepositorio.cs",
+              "RelativeToolTip": "BackendSeguros\\Repositorio\\IRepositorio\\IClienteRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:14:34.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Program.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Program.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Program.cs",
+              "RelativeToolTip": "BackendSeguros\\Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAABoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:52:19.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BackendSeguros\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\addys\\OneDrive\\Escritorio\\ProyectoSeguro\\BackendSeguros\\BackendSeguros\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BackendSeguros\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:52:10.822Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
