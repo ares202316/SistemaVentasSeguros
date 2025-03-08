@@ -2,6 +2,7 @@
 using BackendSeguros.Models;
 using BackendSeguros.Models.Dtos.CoberturaDTO;
 using BackendSeguros.Models.Dtos.PolizaDTO;
+using BackendSeguros.Models.Dtos.RamosDTO;
 using BackendSeguros.Repositorio.IRepositorio;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -76,7 +77,7 @@ namespace BackendSeguros.Controllers
 
                 if (!_Rep.CrearPoliza(poliza))
                 {
-                    ModelState.AddModelError("", $"Algo salio mal al guardar el registro{poliza.codigo}");
+                    ModelState.AddModelError("", $"Algo salio mal al guardar el registro{poliza.id}");
                     return StatusCode(500, ModelState);
                 }
 
@@ -85,7 +86,7 @@ namespace BackendSeguros.Controllers
         }
 
         [HttpPatch("{polizaid:int}", Name = "ActualizarPoliza")]
-        public IActionResult ActualizarPoliza(int polizaid, [FromBody] PolizaDatosDto polizaDto)
+        public IActionResult ActualizarPoliza(int polizaid, [FromBody] CrearPolizaDto actualizarPolizaDto)
         {
             if (!ModelState.IsValid)
             {
@@ -93,10 +94,10 @@ namespace BackendSeguros.Controllers
             }
 
 
-            var poliza = _mapper.Map<Poliza>(polizaDto);
+            var poliza = _mapper.Map<Poliza>(actualizarPolizaDto);
             if (!_Rep.ActualizarPoliza(poliza))
             {
-                ModelState.AddModelError("", $"Hubo un error inesperado al actualizar registro{poliza.codigo}");
+                ModelState.AddModelError("", $"Hubo un error inesperado al actualizar registro{poliza.id}");
                 return StatusCode(500, ModelState);
             }
 
@@ -104,17 +105,41 @@ namespace BackendSeguros.Controllers
 
         }
 
-        
+        [HttpGet("{polizaid:int}", Name = "GetPoliza")]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult GetPoliza(int polizaid)
+        {
+            var itemRamo = _Rep.GetPoliza(polizaid);
+
+            if (itemRamo == null)
+            {
+                return NotFound();
+            }
+
+            var item = _mapper.Map<PolizaDatosDto>(itemRamo);
+
+            return Ok(item);
+        }
+
+
+
 
         [HttpDelete("{polizaid:int}", Name = "BorrarPolizas")]
         public IActionResult BorrarPolizas(int polizaid)
         {
-            
+            if (!_Rep.ExistePoliza(polizaid))
+            {
+                return NotFound();
+            }
+
             var poliza = _Rep.GetPoliza(polizaid);
 
             if (!_Rep.BorrarPoliza(poliza))
             {
-                ModelState.AddModelError("", $"Algo salió mal borrando el registro{poliza.codigo}");
+                ModelState.AddModelError("", $"Algo salió mal borrando el registro{poliza.id}");
                 return StatusCode(500, ModelState);
             }
 
@@ -123,25 +148,7 @@ namespace BackendSeguros.Controllers
 
 
 
-        [HttpGet("Buscar")]
-        public IActionResult Buscar(string nombre)
-        {
-            try
-            {
-                var resultado = _Rep.BuscarPoliza(nombre.Trim());
-                if (resultado.Any())
-                {
-                    return Ok(resultado);
-                }
-
-                return NotFound();
-            }
-            catch (Exception)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error recuperando datos");
-            }
-
-        }
+       
 
     }
 }

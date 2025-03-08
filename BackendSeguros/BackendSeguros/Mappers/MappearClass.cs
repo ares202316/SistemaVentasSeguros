@@ -41,6 +41,7 @@ namespace BackendSeguros.Mappers
 
             CreateMap<Poliza, CrearPolizaDto>().ReverseMap();
             CreateMap<Poliza, PolizaDatosDto>().ReverseMap();
+            CreateMap<Poliza, ActualizarPolizaDto>().ReverseMap();
 
 
         }

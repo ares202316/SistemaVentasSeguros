@@ -42,11 +42,11 @@ namespace BackendSeguros.Repositorio
         public bool CrearCorredor(Corredor Corredor)
         {
             var ultimoCodigoStr = _bd.Corredor
-                         .OrderByDescending(c => c.CodCorredor)
-                         .Select(c => c.CodCorredor)
-                         .FirstOrDefault();
+                .OrderByDescending(c => c.CodCorredor)
+                .Select(c => c.CodCorredor)
+                .FirstOrDefault();
 
-            int ultimoCodigo = 700000; 
+            int ultimoCodigo = 700000;
 
             if (!string.IsNullOrEmpty(ultimoCodigoStr))
             {

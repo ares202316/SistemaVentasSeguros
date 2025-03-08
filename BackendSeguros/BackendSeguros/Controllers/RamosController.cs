@@ -12,7 +12,8 @@ namespace BackendSeguros.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-  
+    
+    
     public class RamosController : ControllerBase
     {
         private readonly IRamoRepositorio _ramoRep;
@@ -63,7 +64,6 @@ namespace BackendSeguros.Controllers
         [HttpPost]
         [ProducesResponseType(201, Type = typeof(RamoDto))]
         //Agregar las respuestas
-
         public IActionResult CrearRamo([FromBody] CrearRamoDto crearRamoDto)
         {
             if (!ModelState.IsValid)
@@ -78,21 +78,22 @@ namespace BackendSeguros.Controllers
             if (_ramoRep.ExisteRamo(crearRamoDto.NombreRamos))
             {
                 ModelState.AddModelError("", "El tipo de ramo ya existe");
-                return StatusCode(404, ModelState);
+       
+                return StatusCode(409, ModelState);
             }
 
             var ramo = _mapper.Map<Ramo>(crearRamoDto);
 
-            if (!_ramoRep.CrearRamo(ramo)) {
-                ModelState.AddModelError("", $"Algo salio mal al guardar el registro{ramo.NombreRamos}");
+            if (!_ramoRep.CrearRamo(ramo))
+            {
+                ModelState.AddModelError("", $"Algo salió mal al guardar el registro {ramo.NombreRamos}");
                 return StatusCode(500, ModelState);
             }
-
 
             return new ObjectResult(ramo) { StatusCode = 201 };
         }
 
-       
+
         [HttpPatch("{ramoId:int}", Name ="ActualizarRamo")]
         //Agregar las respuestas
 

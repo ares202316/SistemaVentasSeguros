@@ -8,19 +8,20 @@ namespace BackendSeguros.Repositorio.IRepositorio
 
         IList<PolizaDatosGeneralDto> GetPolizas(int pageNumber, int pageSize);
         int GetTotalPolizas();
-        bool ExistePoliza(string codigo);
+       
         Poliza GetPoliza(int idPoliza);
         bool CrearPoliza(Poliza poliza);
 
         bool ActualizarPoliza(Poliza poliza);
 
-       
+        bool ExistePoliza(int idPoliza);
+
 
         bool BorrarPoliza(Poliza poliza);
         
         bool Guardar();
 
-        ICollection<Poliza> BuscarPoliza(string codigo);
+        
 
         ICollection<Poliza> GetPolizaenClientes(string clientes);
         ICollection<Poliza> GetPolizaenCorredor(string corredor);

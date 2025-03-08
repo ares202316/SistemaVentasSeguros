@@ -216,6 +216,27 @@
         }
       }
     },
+    "/api/Clientes/Buscar": {
+      "get": {
+        "tags": [
+          "Clientes"
+        ],
+        "parameters": [
+          {
+            "name": "nombre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Cobertura": {
       "get": {
         "tags": [
@@ -734,17 +755,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PolizaDatosDto"
+                "$ref": "#/components/schemas/CrearPolizaDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PolizaDatosDto"
+                "$ref": "#/components/schemas/CrearPolizaDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PolizaDatosDto"
+                "$ref": "#/components/schemas/CrearPolizaDto"
               }
             }
           }
@@ -752,6 +773,88 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Polizas"
+        ],
+        "operationId": "GetPoliza",
+        "parameters": [
+          {
+            "name": "polizaid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       },
@@ -768,27 +871,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Polizas/Buscar": {
-      "get": {
-        "tags": [
-          "Polizas"
-        ],
-        "parameters": [
-          {
-            "name": "nombre",
-            "in": "query",
-            "schema": {
-              "type": "string"
             }
           }
         ],
@@ -1605,69 +1687,6 @@
             "maxLength": 200,
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PolizaDatosDto": {
-        "required": [
-          "clienteId",
-          "corredorId",
-          "ramoId"
-        ],
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "codigo": {
-            "type": "string",
-            "nullable": true
-          },
-          "clienteId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "corredorId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "ramoId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "montoAsegurar": {
-            "type": "number",
-            "format": "double"
-          },
-          "montoNeto": {
-            "type": "number",
-            "format": "double"
-          },
-          "comision": {
-            "type": "number",
-            "format": "double"
-          },
-          "impuesto": {
-            "type": "number",
-            "format": "double"
-          },
-          "totalPagar": {
-            "type": "number",
-            "format": "double"
-          },
-          "prima": {
-            "type": "number",
-            "format": "double"
-          },
-          "cuota": {
-            "type": "number",
-            "format": "double"
-          },
-          "fecRegistro": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false

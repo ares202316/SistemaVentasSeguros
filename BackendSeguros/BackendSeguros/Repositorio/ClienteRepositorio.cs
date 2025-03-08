@@ -32,7 +32,7 @@ namespace BackendSeguros.Repositorio
             IQueryable<Cliente> query = _bd.Cliente;
             if (!string.IsNullOrEmpty(nombre))
             {
-                query = query.Where(e => e.Dni.Contains(nombre) || e.Nombre.Contains(nombre));
+                query = query.Where(e => e.Dni.Contains(nombre) || e.Nombre.Contains(nombre)||e.Apellido.Contains(nombre));
             }
 
             return query.ToList();

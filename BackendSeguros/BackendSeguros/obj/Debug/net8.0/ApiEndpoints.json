@@ -116,6 +116,22 @@
   },
   {
     "ContainingType": "BackendSeguros.Controllers.ClientesController",
+    "Method": "Buscar",
+    "RelativePath": "api/Clientes/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendSeguros.Controllers.ClientesController",
     "Method": "GetClientes",
     "RelativePath": "api/Clientes/Lista",
     "HttpMethod": "GET",
@@ -454,13 +470,63 @@
         "IsRequired": true
       },
       {
-        "Name": "polizaDto",
-        "Type": "BackendSeguros.Models.Dtos.PolizaDTO.PolizaDatosDto",
+        "Name": "actualizarPolizaDto",
+        "Type": "BackendSeguros.Models.Dtos.PolizaDTO.CrearPolizaDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [],
     "EndpointName": "ActualizarPoliza"
+  },
+  {
+    "ContainingType": "BackendSeguros.Controllers.PolizasController",
+    "Method": "GetPoliza",
+    "RelativePath": "api/Polizas/{polizaid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "polizaid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetPoliza"
   },
   {
     "ContainingType": "BackendSeguros.Controllers.PolizasController",
@@ -478,22 +544,6 @@
     ],
     "ReturnTypes": [],
     "EndpointName": "BorrarPolizas"
-  },
-  {
-    "ContainingType": "BackendSeguros.Controllers.PolizasController",
-    "Method": "Buscar",
-    "RelativePath": "api/Polizas/Buscar",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "nombre",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "BackendSeguros.Controllers.RamosController",

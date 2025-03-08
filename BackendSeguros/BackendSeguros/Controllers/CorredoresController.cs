@@ -63,11 +63,7 @@ namespace BackendSeguros.Controllers
                 return StatusCode(404, ModelState);
             }
 
-            if (_corRep.ExisteCodCorredor(crearCorredorDTO.CodCorredor))
-            {
-                ModelState.AddModelError("", "El Codigo de Corredor es de valor unico");
-                return StatusCode(404, ModelState);
-            }
+            
 
             if (_corRep.ExisteEmailCorredor(crearCorredorDTO.Email))
             {

@@ -8,8 +8,7 @@ namespace BackendSeguros.Models
         [Key]
         public int id { get; set; }
 
-        public string codigo { get; set; }
-
+    
         [ForeignKey("clienteId")]
         [Required(ErrorMessage = "Seleccione el cliente")]
         public int clienteId { get; set; }

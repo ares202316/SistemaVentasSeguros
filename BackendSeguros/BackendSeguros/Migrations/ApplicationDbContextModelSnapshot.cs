@@ -172,10 +172,6 @@ namespace BackendSeguros.Migrations
                     b.Property<int>("clienteId")
                         .HasColumnType("int");
 
-                    b.Property<string>("codigo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<decimal>("comision")
                         .HasColumnType("decimal(18,2)");
 

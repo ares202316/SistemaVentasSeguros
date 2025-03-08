@@ -142,3 +142,7 @@ C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\
 C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\bin\Debug\net8.0\Microsoft.Practices.ServiceLocation.dll
 C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\bin\Debug\net8.0\XAct.Core.PCL.dll
+C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\obj\Debug\net8.0\BackendSeguros.sourcelink.json
+C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\addys\OneDrive\Escritorio\ProyectoSeguro\BackendSeguros\BackendSeguros\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -128,6 +128,27 @@ namespace BackendSeguros.Controllers
             return NoContent();
         }
 
+        [HttpGet("Buscar")]
+        public IActionResult Buscar(string nombre)
+        {
+            try
+            {
+                var resultado = _Rep.BuscarCliente(nombre.Trim());
+                if (resultado.Any())
+                {
+                    return Ok(resultado);
+                }
+
+                return NotFound();
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error recuperando datos");
+            }
+
+        }
+
+
 
     }
 }

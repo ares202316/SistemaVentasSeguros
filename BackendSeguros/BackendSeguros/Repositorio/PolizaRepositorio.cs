@@ -22,12 +22,16 @@ namespace BackendSeguros.Repositorio
 
         public bool ActualizarPoliza(Poliza poliza)
         {
+          
             poliza.montoNeto = poliza.montoAsegurar * 0.02m; // 2% del montoAsegurar
             poliza.comision = poliza.montoNeto * 0.10m;      // 10% del montoNeto
             poliza.impuesto = poliza.montoNeto * 0.18m;      // 18% del montoNeto
             poliza.prima = poliza.montoNeto + poliza.impuesto; // Suma montoNeto + impuesto
             poliza.totalPagar = poliza.prima + poliza.comision; // Suma prima + comisión
             poliza.cuota = poliza.totalPagar / 12;
+
+            
+
             poliza.FecRegistro = DateTime.Now;
             _bd.Poliza.Update(poliza);
             return Guardar();
@@ -40,46 +44,30 @@ namespace BackendSeguros.Repositorio
             return Guardar();
         }
 
-        public ICollection<Poliza> BuscarPoliza(string codigo)
-        {
-            IQueryable<Poliza> query = _bd.Poliza;
-            if (!string.IsNullOrEmpty(codigo))
-            {
-                query = query.Where(e => e.codigo.Contains(codigo));
-            }
-
-            return query.ToList();
-        }
+       
 
         public bool CrearPoliza(Poliza poliza)
         {
             poliza.FecRegistro = DateTime.Now;
 
-            var ultimaPoliza = _bd.Poliza.OrderByDescending(p => p.id).FirstOrDefault();
 
-            if (ultimaPoliza != null)
-            {
-                poliza.codigo = (int.Parse(ultimaPoliza.codigo) + 1).ToString();
-            }
-            else
-            {
-                poliza.codigo = "100000"; 
-            }
-
-            poliza.montoNeto = poliza.montoAsegurar * 0.02m; // 2% del montoAsegurar
-            poliza.comision = poliza.montoNeto * 0.10m;      // 10% del montoNeto
-            poliza.impuesto = poliza.montoNeto * 0.18m;      // 18% del montoNeto
-            poliza.prima = poliza.montoNeto + poliza.impuesto; // Suma montoNeto + impuesto
-            poliza.totalPagar = poliza.prima + poliza.comision; // Suma prima + comisión
+            
+            poliza.montoNeto = poliza.montoAsegurar * 0.02m; 
+            poliza.comision = poliza.montoNeto * 0.10m;      
+            poliza.impuesto = poliza.montoNeto * 0.18m;   
+            poliza.prima = poliza.montoNeto + poliza.impuesto; 
+            poliza.totalPagar = poliza.prima + poliza.comision; 
             poliza.cuota = poliza.totalPagar / 12;           
 
             _bd.Poliza.Add(poliza);
             return Guardar();
         }
 
-        public bool ExistePoliza(string codigo)
+       
+
+        public bool ExistePoliza(int idPoliza)
         {
-            bool valor = _bd.Poliza.Any(c => c.codigo.ToLower().Trim() == codigo.ToLower().Trim());
+            bool valor = _bd.Poliza.Any(c => c.id == idPoliza);
             return valor;
         }
 
@@ -118,17 +106,16 @@ namespace BackendSeguros.Repositorio
             .Include(p => p.Cliente)  
             .Include(p => p.Corredor) 
             .Include(p => p.Ramo)     
-            .OrderBy(p => p.codigo)
+            .OrderBy(p => p.id)
             .Skip((pageNumber - 1) * pageSize)
             .Take(pageSize)
             .ToList();
             return polizas.Select(p => new PolizaDatosGeneralDto
             {
                 id = p.id,
-                Codigo = p.codigo,
                 ClienteDni = p.Cliente.Dni,
                 ClienteNombre = p.Cliente.Nombre + " " + p.Cliente.Apellido,
-                Corredorcodigo = p.codigo,
+                Corredorcodigo = p.Corredor.CodCorredor,
                 CorredorNombre = p.Corredor.Nombre + " " + p.Cliente.Apellido, 
                 RamoNombre = p.Ramo.NombreRamos,         
                 MontoAsegurar = p.montoAsegurar,
